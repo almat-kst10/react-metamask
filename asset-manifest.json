@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccad6a3c.css",
+    "main.js": "/static/js/main.1151e0d5.js",
+    "static/media/planet.svg": "/static/media/planet.71e08520777b1d9a5b2f7c614332334c.svg",
+    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "index.html": "/index.html",
+    "main.ccad6a3c.css.map": "/static/css/main.ccad6a3c.css.map",
+    "main.1151e0d5.js.map": "/static/js/main.1151e0d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccad6a3c.css",
+    "static/js/main.1151e0d5.js"
+  ]
+}
