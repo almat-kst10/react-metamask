@@ -1,0 +1,30 @@
+.PersonalList {
+    cursor: pointer;
+    .headers {
+        font-family: 'BebasNeue';
+        font-size: 36px;
+    }
+    .row {
+        // &_body:nth-child(2) {
+        //     color: #E75626;
+        // }
+        & > * {
+            display: grid;
+            grid-template-columns: 200px 300px 100px 15px; // 1fr 1fr;
+            border-bottom: 1px solid #FFFFFF;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+        .title {
+            text-align: left;
+            font-family: 'BebasNeue';
+            font-size: 24px;
+        }
+        .value {
+            text-align: left;
+            font-family: 'Avenir Next Cyr';
+            font-size: 14px;
+            line-height: 18px;      
+        }
+    }
+}

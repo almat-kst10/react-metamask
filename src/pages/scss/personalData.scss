@@ -1,0 +1,28 @@
+.PersonalData {
+    height: 100vh;
+    background: #171719; 
+    font-family: 'BebasNeue';
+    color: #fff;
+    padding: 20px;
+    .body_content_title {
+        font-weight: 700;
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .body_info {
+        &_box {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+        &_title {
+            font-weight: 700;
+            font-size: 18px;
+        }
+        &_value {
+            font-weight: 700;
+            font-size: 25px;
+            color: #E75626;
+        }
+    }
+}

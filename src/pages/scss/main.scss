@@ -1,0 +1,103 @@
+
+.Main {
+    height: 100%;
+    background: #171719; 
+    font-family: 'BebasNeue';
+    color: #fff;
+    padding: 20px;
+    .subtitle {
+        width: 400px;
+        font-size: 16px;
+        line-height: 120%;
+        font-family: 'Avenir Next Cyr';
+        text-align: left;
+    }
+    .title_context {
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: 2fr 0.5fr;
+        margin-bottom: 40px;
+        .left_side {
+            &_content {
+                position: relative;
+                z-index: 1;
+            }
+            &_title {
+                text-align: left;
+                font-size: 100px;
+                line-height: 120%;
+            }
+            .logo_planet {
+                position: absolute;
+                z-index: 0;
+                top: 20%;
+                left: 40%;
+            }
+        }
+        .right_side {
+            position: relative;
+            padding-top: 20px;
+            &_title {
+                font-size: 32px;
+                line-height: 120%;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            &_box {
+                display: flex;
+                flex-direction: column;
+                & > *:not(:last-child) {
+                    padding-bottom: 5px;
+                    margin-bottom: 5px;
+                    border-bottom: 0.5px solid #D2C4C4;
+                }
+                .title {
+                    font-size: 28px;
+                    line-height: 120%;
+                    color: #E75626;
+                }
+                .value {
+                    font-size: 18px;
+                    line-height: 120%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    .body_content {
+        display: flex;
+        align-items: flex-start;
+        .info {
+            margin-right: 50px;
+        }
+        &_title {
+            font-weight: 700;
+            font-size: 36px;     
+            color: #E75626;
+            text-align: left;   
+        }
+        .form {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            &_item {
+                text-align: left;
+                display: flex;
+                flex-direction: column; 
+            }
+            &_label {
+                font-weight: 700;
+                font-size: 24px;
+                color: #FFFFFF;
+            }
+            &_value {
+                font-weight: 700;
+                font-size: 32px;
+                color: #E75626;
+            }
+        }
+        .button {
+            margin-top: 20px;
+        }
+    }
+}
